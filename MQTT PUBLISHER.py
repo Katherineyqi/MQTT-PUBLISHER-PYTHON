@@ -1,8 +1,8 @@
-import paho.mqtt.client as mqtt
-import thread
+import paho.mqtt.client as mqtt # Mqtt library
+import thread # hello
 import time
 temp='0'
-level1='1'
+level1='1' 
 level2='2'
 
 def ante_conexion_exitosa(client, userdata, flags, rc):
